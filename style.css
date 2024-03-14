@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10.5px;
+    padding-right: 40px;
+
+}
+body {
+   padding:0; 
+   margin:0;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    margin: 0;
+  }
+.best{
+    width: 100%;
+}
+.header-color{
+
+
+    box-sizing: inherit;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #7c7c7c;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-logo{
+
+}
+.header_nav{
+
+}
+.header_nav a{
+    font-size: 14px;
+}
+.header_list {
+    display: flex;
+    gap: 30px;
+}
+.black{
+
+}
+/*приветственная секция*/
+.welcome__tittle{
+    font-size: 59px;
+    color: #000;
+    width: 330px;
+    margin-bottom: 21px;
+    line-height: 1.2em;
+    letter-spacing: 0.08em;
+}
+.welcome__subtitle{
+    font-size: 22px;
+    color: rgb(0, 58, 204);
+    font-weight: normal;
+}
+.container{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.welcome{
+    padding-bottom: 90px;
+    padding-top: 1px;
+    background-image: url(./imges/7944-6rfNrzf5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+/*Связь*/
+.form {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+    margin-top: -460px;
+    margin-left: 900px;
+  }
+  
+  .form .title {
+    color: rgb(49, 107, 255);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: -2;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 90%;
+    height: 50px;
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .form button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(49, 107, 255);
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+  }
+  .form p{
+    font-size: 15px;
+    margin: 0;
+  }
+      
+  

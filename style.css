@@ -74,12 +74,16 @@ ul{
     margin-top: 70px;
 }
 .welcome{
-    padding-bottom: 90px;
-    padding-top: 1px;
-    background-image: url(./imges/7944-6rfNrzf5.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:  center;
+
+}
+.gtable{
+  padding-bottom: 90px;
+  padding-top: 1px;
+  background-image: url(./imges/7944-6rfNrzf5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  width: 100%;
 }
 /*Связь*/
 .form {
@@ -93,8 +97,7 @@ ul{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
-    margin-top: -460px;
-    margin-left: 900px;
+
   }
   
   .form .title {
@@ -145,5 +148,4 @@ ul{
     font-size: 15px;
     margin: 0;
   }
-      
   

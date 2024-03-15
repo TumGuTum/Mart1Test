@@ -69,11 +69,13 @@ ul{
 
     line-height: 1.2em;
     letter-spacing: 0.08em;
+    
 }
 .welcome__subtitle{
     font-size: 22px;
     color: rgb(0, 58, 204);
     font-weight: normal;
+    padding-top: 15px;
 }
 .visota__form{
 
@@ -86,8 +88,9 @@ ul{
 
 }
 .gtable{
-  padding-bottom: 90px;
-  padding-top: 1px;
+
+  padding-top: 40px;
+  padding-bottom: 50px;
   background-image: url(./imges/7944-6rfNrzf5.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,12 +104,11 @@ ul{
     align-items: flex-start;
     flex-direction: column;
     gap: 10px;
-    width: 300px;
+    width: 320px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
-    height: 360px;
 
   }
   
@@ -127,7 +129,7 @@ ul{
     border: 1px solid rgb(219, 213, 213);
     padding: 8px 14px;
     border-radius: 8px;
-    width: 90%;
+    width: 100%;
     height: 50px;
   }
   
@@ -169,39 +171,28 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #FFEB3B;
-    padding: 20px 10px;
+    background-color: #000000;
+    height: 70px;
   }
   
   .wrap-logo {
     display: flex;
     align-items: center;
-   
+   height: 70px;
   }
   
   header a {
-    color: #212121;
+    color: #ffffff;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px; 
+    font-size: 15px; 
     border-radius: 4px;
   }
   
-  header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
   
-  header a:hover {
-    background-color: #FBC02D;
-    color: #212121;
-  }
-  
-  header a.active {
-    background-color: #FBC02D;
-  }
   
   nav {
     display: flex;
     align-items: center;
     }
+  

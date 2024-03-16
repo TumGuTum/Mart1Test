@@ -242,11 +242,90 @@ padding: 115px 0;
 .r1{
   margin-left: -1em;
 }
-  
-  
-  
-  nav {
-    display: flex;
-    align-items: center;
-    }
-  
+
+
+#portfolio {
+  background-color: #fff; 
+  text-align: center;
+  padding: 0px 0;
+}
+
+.portfolio-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row; 
+}
+
+.gallery-item {
+  margin: 10px;
+  width: 25%; 
+  max-width: 280px; 
+}
+
+.gallery-item img {
+  width: 100%;
+  transition: transform 0.3s ease; 
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1); 
+}
+.portfolioZ{
+  font-size: 38px;
+  line-height: 1.23;
+  font-weight: 1000;
+
+  padding-top: 60px;
+
+}
+
+.portfolioM{
+  font-size: 22px;
+  padding-top: 12px;
+  padding-bottom: 70px;
+}
+
+
+
+
+
+#contacts {
+  background-color: #efefef;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact-info p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+.number{
+  font-size: 44px;
+  padding-top: 100px;
+}

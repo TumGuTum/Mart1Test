@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .header{
 
     justify-content: space-between;
@@ -9,12 +9,88 @@
     display: flex;
 
 }
+/*Телефон*/
+@media screen and (max-width: 768px) {
+  .wrap-logo {
+    margin-left: 10px;
+  }
+  .header_nav {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+.welcome__tittle {
+  font-size: 28px;
+  padding-top: 20px;
+  text-align: center;
+}
+.welcome__subtitle {
+  font-size: 16px;
+  text-align: center;
+}
+.container {
+  padding: 0 20px;
+}
+.form {
+  width: 100%;
+}
+.form input,
+.form textarea {
+  width: calc(100% - 28px);
+}
+.form .title {
+  font-size: 18px;
+  text-align: center;
+}
+.form p {
+  font-size: 14px;
+}
+.usH {
+  font-size: 24px;
+  padding-top: 20px;
+  text-align: center;
+}
+.services-card {
+  padding: 50px 0;
+}
+.services-card-title {
+  font-size: 18px;
+}
+.portfolio-content {
+  padding: 0 20px;
+}
+.portfolioZ {
+  font-size: 24px;
+  padding-top: 40px;
+  text-align: center;
+}
+.portfolioM {
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.number {
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
 body {
   background-color: #1c1c1c;
   min-width: 1260px;
    padding:0; 
    margin:0;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: "Montserrat", sans-serif;
+
   }
   h1,h2,h3,h4,h5,h6{
     font-weight: 500;
@@ -319,11 +395,10 @@ padding: 115px 0;
 .social-icons img {
   width: 40px;
   height: 40px;
+  transition: transform 0.3s ease;
 }
-
-.social-icons img {
-  width: 40px;
-  height: 40px;
+.social-icons img:hover {
+  transform: scale(1.1); 
 }
 .number{
   font-size: 44px;
